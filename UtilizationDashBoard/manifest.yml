@@ -1,0 +1,7 @@
+---
+applications:
+- name: UtilizationDashBoard
+  memory: 512M
+  instances: 1
+  host: utilizationdashboard
+  domain: mybluemix.net

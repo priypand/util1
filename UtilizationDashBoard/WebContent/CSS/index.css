@@ -1,0 +1,401 @@
+/*style for header... common to all...*/
+header
+{
+	padding-top: 7px;
+	font-family: MeninBlue;
+	font-size: 50px;
+	text-align: right;
+	border-bottom: solid;
+	background-color: #ffffff;	
+}
+/* style for IBM logo...common to all...*/
+#ibmlogo
+{
+	padding-top: 10px;
+	width:120px;
+	height:50px;
+  float:left;
+}
+/* style to the main division..common to all...*/
+.contentbody
+{
+background-color: #f9f9fa;
+padding-top: 10%;
+padding-bottom: 22%;
+}
+
+/*file:index.html table when login fails*/
+#case
+{
+font-family: 'BioRhyme', serif;
+font-size:24px;
+margin-left: 34%;
+padding-top: 8%;
+display:none;
+}
+
+/*file:index.html image of failed login*/
+#failedlogin
+{	
+	width:25px;
+	height:25px;
+	border: none;
+    border-radius: 50%;
+	margin-top:30px;
+}
+
+/*login contents file: index.html*/
+#contents
+{
+margin-left: 37%;
+margin-right: 37%;
+padding-bottom: 2%;
+background-color: #f0f0f5;
+}
+/*textbox of login page file:index.html*/
+.textbox
+{
+	width:77%;
+	height: 25%;
+	font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    border: hidden;
+    background-color: #d9d9e4;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/*login button file:index.html*/
+#login
+{
+	width:50%;
+	height:15%;
+	font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    border: solid;
+    margin-top: 10%;
+    margin-left: 25%;
+    border-radius: 20px;
+    background-color: #d9d9e4;
+}
+/* table at footer...insight and date... common to all*/
+#foottab
+{
+	position: fixed;
+    bottom: 0;
+    font-family: 'BioRhyme', serif;
+    font-size: 24px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#insight
+{
+  float: left;
+}
+#date
+{
+  float: right;
+}
+
+#contentbody
+{
+  background-color: #f9f9fa;
+  padding-top: 10%;
+  padding-bottom: 18%;
+}
+
+/*main of extract*/
+
+#mainupload
+{
+	margin-top: -10%;
+	
+}
+/*content body of UploadExtract.jsp*/
+.contentbodyutilu
+{
+	background-color: #f9f9fa;
+	padding-bottom:17%;
+	padding-top: 10%;
+	
+	
+}
+
+.contentbodyutil
+{
+	background-color: #f9f9fa;
+	padding-bottom:5%;
+	padding-top: 10%;
+	
+	
+}
+
+.contentbodyutilt
+{
+	background-color: #f9f9fa;
+	padding-bottom:11%;
+	padding-top: 10%;
+	
+	
+}
+
+/*file: UploadExtract.jsp, PreparePPT.jsp, CreatePresentation.jsp logged in details table*/		
+.loggedin
+{
+	font-family: 'BioRhyme', serif;
+    font-size:14px;
+    float: right;
+    margin-top: 2%;
+    margin-bottom: 5%;
+   
+
+}
+
+/*file:UploadExtract.jsp main contents: upload file*/
+#tabcontents
+{
+	margin-left:16%;
+	padding-top: 10%;
+	width: 70%;
+	font-family: 'BioRhyme', serif;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+
+#selectupload
+{
+	height: 70px;
+}
+/*file:UploadExtract.jsp submit button*/
+#upsub
+{
+	height:50px;
+	width: 120px;
+	background-color: #d9d9e4;
+	color: #000000;
+	border: none;
+	font-family: 'Raleway', sans-serif;
+	font-size:24px;
+	border-radius: 25px;
+	text-align: center;
+	margin-left: 15%;
+	margin-top: 0.5%;
+	position: absolute;
+}
+#upsub:HOVER
+{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*file:UploadExtract.jsp style the buttons for upload..create..send report and help*/
+.rbutton
+{
+	width:9.5em;
+    height:8.5em;
+    border: none;
+    border-radius: 50%;
+    color:#000000;
+    text-align:center;
+    text-decoration:none;
+    background: #d9d9e4;
+    box-shadow: 0 0 3px gray;
+    font-family: 'BioRhyme', serif;
+    font-size:14px;
+    margin-left:12%;
+}
+.rbutton:HOVER
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*file:UploadExtract.jsp to position the buttons*/
+#bottom
+{
+	
+	margin-top: 2%;
+	display:none;
+}
+
+/*file:UploadExtract.jsp Error message*/
+#errorUpload
+{
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	color: red;
+	display: none;
+	margin-top: 10%;	
+}
+
+/* file:UploadExtract.jsp and PreparePPT.jsp help button */
+#helpbutton
+{
+	width:50px;
+    height:50px;
+    border: none;
+    color:#000000;
+    background: url("../Resources/help.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+#helpbutton:HOVER
+{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/*File:PreparePPT.jsp Prepare Presentation filters*/
+#tabcontentsppt
+{
+	margin-left:10%;
+	padding-top:2%;
+	padding-bottom:2%;
+	border:solid;
+    border-width:2px;
+    border-radius: 25px;
+    border-color: black;
+    margin-top: 50%;
+    width:80%;
+    padding-left:2%;
+    padding-right:2%;
+    
+}
+
+/*tryppt.jsp*/
+.loggedin1
+{
+	font-family: 'BioRhyme', serif;
+    font-size:14px;
+    float: right;
+    padding-top:2%;
+    padding-bottom: 5%; 
+}
+
+#trytd
+{
+	width: 25%;
+}
+/*File: PreparePPT.jsp drop-down list*/
+.dropdown
+{
+	height:12%;
+	width: 75%;
+	font-family: 'BioRhyme', serif;
+    font-size:17px;
+    color:#000000;
+    text-decoration:none;
+    background: #d9d9e4;
+    box-shadow: 0 0 3px gray;
+    border: none;
+    
+}
+
+#tryprepare
+{
+	margin-left: 40%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#bottom1
+{
+	margin-left: 12%;
+	margin-top: 2%;
+	display: none;
+}
+
+/*File:PreparePPT.jsp create ppt button*/
+.preparePPTButton
+{
+	height:50px;
+	width: 300px;
+	font-family: 'BioRhyme', serif;
+    font-size:24px;
+    color:#000000;
+    text-align:center;
+    text-decoration:none;
+    background: #d9d9e4;
+    box-shadow: 0 0 3px gray;
+    border: none;
+    
+}
+.preparePPTButton:HOVER {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*file: CreatePresentation PPT Created Successfully table*/
+#createdppttab
+{
+	
+	font-family: 'BioRhyme', serif;
+	font-size: 30px; 
+	margin-left:10%;
+	padding-top:2%;
+	padding-bottom:2%;
+	text-align: center;
+    margin-top: 50%;
+    width:80%;
+    padding-left:2%;
+    padding-right:2%;			
+}
+
+		
+/*File: CreatePresentation.jsp buttons to view and send reports alignment*/
+#bottom2
+{
+	margin-left: 10%;
+	margin-top: 2%;
+	
+}
+
+/*File: CreatePresentation.jsp buttons to view and send reports design*/
+.rbutton1
+{
+	width:7.5em;
+    height:6.5em;
+    border: none;
+    border-radius: 50%;
+    color:#000000;
+    text-align:center;
+    text-decoration:none;
+    background: #d9d9e4;
+    box-shadow: 0 0 3px gray;
+    font-family: 'BioRhyme', serif;
+    font-size:19px;
+    margin-left: 12%;
+}
+.rbutton1:HOVER
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*file:CreatePresentation.jsp textbox for emailId*/
+.textboxl
+{
+	width:400px;
+	height: 50px;
+	font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    border: hidden;
+    background-color: #d9d9e4;
+    margin-left: 70px;
+    margin-top: 90px;
+}
+
+.texts
+{
+	width: 50%;
+}
+
+.files
+{
+	width: 60%;
+	font-size: 14px;
+}
